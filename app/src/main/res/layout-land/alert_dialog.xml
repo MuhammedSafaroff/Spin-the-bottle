@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/dialog_txt"
+        android:textStyle="bold|italic"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="30dp"
+        android:text="@string/c6"
+        />
+
+</RelativeLayout>

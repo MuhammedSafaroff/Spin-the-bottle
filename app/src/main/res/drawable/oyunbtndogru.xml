@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="#95a200"/>
+                    <!-- alttan gölge -->
+                    <corners android:radius="10dp"/>
+                </shape>
+            </item>
+            <!-- BUTTON alttan gölge
+              android:right="5px" to make it round-->
+            <item
+                android:bottom="5px"
+                >
+                <shape>
+                    <padding android:bottom="8dp"/>
+                    <gradient
+                        android:startColor="#039124"
+                        android:endColor="#1fc83b"
+                        android:angle="270" />
+                    <corners
+                        android:radius="10dp"/>
+                    <padding
+                        android:left="5dp"
+                        android:top="5dp"
+                        android:right="5dp"
+                        android:bottom="5dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="#027b1e"/>
+                    <corners android:radius="10dp"/>
+
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="5px">
+                <shape>
+                    <padding android:bottom="5dp"/>
+                    <gradient
+                        android:startColor="#039124"
+                        android:endColor="#1fc83b"
+                        android:angle="270" />
+                    <corners
+                        android:radius="10dp"/>
+                    <padding
+                        android:left="5dp"
+                        android:top="5dp"
+                        android:right="5dp"
+                        android:bottom="5dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

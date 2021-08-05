@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    >
+<LinearLayout
+    android:background="@drawable/sekil8"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:rotation="70"
+            android:id="@+id/txt_ad_81"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginStart="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:id="@+id/txt_ad_82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="75dp"
+            android:rotation="30"
+            android:text="Fidan"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:rotation="-30"
+            android:id="@+id/txt_ad_83"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:rotation="-70"
+            android:id="@+id/txt_ad_84"
+            android:textSize="19sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginStart="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:rotation="110"
+            android:id="@+id/txt_ad_85"
+            android:textSize="19sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:rotation="160"
+            android:id="@+id/txt_ad_86"
+            android:textSize="19sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:rotation="-160"
+            android:id="@+id/txt_ad_87"
+            android:textSize="19sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Fidan"/>
+
+        <TextView
+            android:rotation="-110"
+            android:id="@+id/txt_ad_88"
+            android:textSize="19sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="Fidan"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bottle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="spinBottle"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/adView">
+        <Button
+            android:id="@+id/dogruluk_btn"
+            android:text="Doğruluk"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:layout_margin="3dp"
+            android:background="@drawable/oyunbtnyanlis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/cesaret_btn"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:text="Cesaret"
+            android:background="@drawable/oyunbtndogru"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"/>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-4763830311171299/5983976076">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

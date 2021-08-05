@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/back">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:text="Spin The Bottle"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:fontFamily="monospace"
+        android:shadowRadius="3"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="#111"/>
+
+    <Spinner
+        android:theme="@style/scrol"
+        android:id="@+id/spinner_1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_below="@+id/ust"
+        android:layout_marginTop="40dp"
+        android:entries="@array/istifadecisayi"
+        android:background="@drawable/bg"
+
+
+
+        >
+
+    </Spinner>
+
+    <ScrollView
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/scrollView_1"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/spinner_1"
+        android:layout_above="@id/Login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/oyunbtngiris"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Oyuna Başla"
+        android:textStyle="bold|italic"
+        android:textColor="#126786"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        />
+
+</RelativeLayout>
